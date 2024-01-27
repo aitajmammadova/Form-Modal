@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="main_table container">
+        <table>
+            <thead>
+                <th>Name<button id="add">+</button></th>
+                <th>Surname</th>
+                <th>Age</th>
+            </thead>
+            <tbody class="tbody">
+                 <tr>
+                    <td>Aytaj</td>
+                    <td>Mammadova</td>
+                    <td>23</td>
+                 </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="main-modal">
+         
+        <form class="modal">
+            <input type="text" placeholder="Name" name="name" id="name">
+            <input type="text" placeholder="Surname" name="surname" id="surname">
+            <input type="number" placeholder="Age" name="age" id="age">
+            <button type="submit" >Add</button>
+        </form>
+    </section>
+    
+
+    <script src="app.js"></script>
+</body>
+
+</html>
